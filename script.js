@@ -37,6 +37,7 @@ $(document).ready(function() {
     data.forEach(d => {
       $(".marquee-content").append(`<div class="marquee-item"><img src="${d.ProfilePicture}"/><h6>@${d.Handle}<h6><p>${toCommas(d.Following)}</p></div>`)
     })
+    $(".marquee-content").append($(".marquee-content").html()); // infinite scroll 
     $(".following").text(toMils(follows))
     var items = $('.signs > li').get();
     items.sort(function(a, b) {
