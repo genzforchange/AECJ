@@ -521,6 +521,12 @@ ul.signs li {
     font-size: 0.95em;
   }
 
+  .body-button {
+    flex-direction: column;
+    display: flex;
+    margin: 0 25px;
+  }
+
   .header {
     flex-direction: column;
     justify-content: center;
