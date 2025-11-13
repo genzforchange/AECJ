@@ -397,6 +397,10 @@ ul.signs li {
     height: 100px;
   }
 
+  #about {
+    width: 100%;
+  }
+
   .action-box {
     margin: 40px 40px;
     flex-direction: column;
@@ -422,8 +426,8 @@ ul.signs li {
 
 @media screen and (max-width: 767px) {
   h1 {
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 46px;
+    line-height: 46px;
   }
 
   h2 {
@@ -439,6 +443,16 @@ ul.signs li {
   p {
     font-size: 16px;
     line-height: 21px;
+  }
+
+  #img-container2 img {
+    width: 25vw;
+    height: auto;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: -500px;
+    float: right;
+    opacity: 0.5;
   }
 
   .body-button a {
