@@ -121,6 +121,8 @@ p a {
   text-align: center;
   padding: 20px 0 45px 0;
   font-family: 'poppins', sans-serif;
+  justify-content: space-evenly;
+  display: flex;
 }
 
 .body-button a {
@@ -388,6 +390,14 @@ ul.signs li {
     line-height: 21px;
   }
 
+  .body-button {
+    text-align: center;
+    padding: 20px 0 45px 0;
+    font-family: 'poppins', sans-serif;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  
   .body-button a {
     font-size: 16px;
   }
@@ -446,13 +456,19 @@ ul.signs li {
   }
 
   #img-container2 img {
-    width: 25vw;
+    width: 50vw;
     height: auto;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: -500px;
     float: right;
     opacity: 0.5;
+  }
+
+  .body-button {
+    flex-direction: column;
+    display: flex;
+    margin: 0 25px;
   }
 
   .body-button a {
